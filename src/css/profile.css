@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    overflow: hidden;
+    background-color: #ddd;
+    height:9vh;
+}
+
+.img{
+    position:relative;
+    margin: -1% 1%;
+    display:flex;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
+.topbar a{
+    float:right;
+    color:black;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topbar a:hover{
+    background-color: #ddd;
+    color: white;
+    transform: scale(1.2);
+}
+
+.topbar a.active{
+    background-color: #04aa6d;
+    color: white;
+}
+
+.left {
+    width: 35vw ;
+    background-color: #282c34;
+    height: 71vh;
+    padding-left: 5vw;
+}
+
+.right {
+    width: 45vw;
+    height: 61vh;
+    background-color: lavender;
+    padding-top: 10vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: left;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+.ans, .head {
+    display: inline;
+    width: 25vw;
+}
+
+.employee-info {
+    margin: 10px;
+    border: 4px double black;
+  }
+
+  .detail {
+    margin: 10px 0;
+    padding: 2%  10%;
+  }
+  .head {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .ans {
+    font-weight: normal;
+    font-style: italic;
+  }
+  .icon{
+    margin-top: 90px;
+    margin-left: 200px;
+  }
+  .myprofile{
+    color: white;
+    font-size:xx-large;
+    font-weight: bolder;
+    margin-top: 3vh;
+    margin-left: 4vw;
+  }
+.profilepicture {
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 17.5vw;
+    bottom: 20vh;
+}
+
+.button{
+  background-color: grey;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5%;
+  font-size: medium;
+}
+.button:hover{
+  background-color: green;
+}

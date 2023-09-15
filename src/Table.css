@@ -1,0 +1,49 @@
+/* ManagerTable.css */
+
+/* Style the container */
+.table-container {
+    margin: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style the table headers */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style the table data cells */
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue color, you can change this */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover, you can change this */
+  }
+  
+  /* Style the Denied button differently */
+  button.Denied {
+    background-color: #dc3545; /* Red color for Denied button */
+  }
+  
+  button.Denied:hover {
+    background-color: #b32431; /* Darker red color on hover */
+  }
+  
